@@ -1,0 +1,1 @@
+NOTES: Flask checks for CSS in the "static" folder while "html" in the templates folder

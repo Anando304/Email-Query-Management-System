@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=yes">
+    <title>DEMO APP</title>
+
+    <!-- Bootstrap CSS -->
+    <link type= "text/css" rel="stylesheet" href="{{ url_for('static', filename='styles/bootstrap.min.css') }}">
+    <!-- animate CSS -->
+    <link type= "text/css" rel="stylesheet" href="{{ url_for('static', filename='styles/animate.css') }}">
+    <!-- owl carousel CSS -->
+    <link type= "text/css" rel="stylesheet" href="{{ url_for('static', filename='styles/owl.carousel.min.css') }}">
+    <!-- font awesome CSS -->
+    <link type= "text/css" rel="stylesheet" href="{{ url_for('static', filename='styles/all.css') }}">
+    <!-- flaticon CSS -->
+    <link type= "text/css" rel="stylesheet" href="{{ url_for('static', filename='styles/flaticon.css') }}">
+    <link type= "text/css" rel="stylesheet" href="{{ url_for('static', filename='styles/themify-icons.css') }}">
+    <!-- font awesome CSS -->
+    <link type= "text/css" rel="stylesheet" href="{{ url_for('static', filename='styles/magnific-popup.css') }}">
+    <!-- swiper CSS -->
+    <link type= "text/css" rel="stylesheet" href="{{ url_for('static', filename='styles/slick.css') }}">
+    <!-- style CSS -->
+    <link type= "text/css" rel="stylesheet" href="{{ url_for('static', filename='styles/style.css') }}">
+    
+    
+</head>
+
+<body id="page-top"> <!-- In text css using style -->
+
+    <style> 
+            body{background-color:rgb(44,114,202);}
+            nav{background-color:rgb(165, 109, 255);}
+    </style>
+        <div class = "text-center">
+        <h1 style=" text-align: center; color:white; padding-top: 150px;" width = "450" height = "350" >ERROR 500</h1>
+        <img src="https://i.ya-webdesign.com/images/server-clipart-small-11.png" width = "350" height = "350"> 
+        <h2 style=" text-align: center; color:white; padding-top: 20px;" width = "450" height = "350" >Hmmm... Looks like an internal server error occurred</h2>
+        </div>
+
+        <form method="POST" action ="/500"> <!-- Remember to include the with POST and pagename or else Flask will not recieve POST info for the given page -->
+        <div class="text-center">
+        <input class = "btn btn-danger" type = "submit" name = "LoginRedirect" value = "Login Page">
+        </div> 
+        </form>
+
+        
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+</body>
