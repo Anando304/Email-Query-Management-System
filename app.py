@@ -95,7 +95,7 @@ def home():
         if g.user: #If currently a user exists, this means user is logged in
             return render_template('index.html')
 
-#************************************NON PROD ENVS********************************************************                     
+#************************************WEB********************************************************                     
 @app.route('/CHROME', methods=['GET','POST'])  
 def CHROME():
     if request.method == 'POST': 
@@ -130,7 +130,7 @@ def CHROME():
 
     
 
-#************************************P****PROD ENVS********************************************************                       
+#*****************************************MOBILE********************************************************                       
 @app.route('/ANDROID', methods=['GET','POST'])  
 def ANDROID():
     if request.method == 'POST': 
