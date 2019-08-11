@@ -14,10 +14,17 @@ Jinja2 templating to bridge the connection between the Python Backend to the HTM
 **TECHNICAL ASPECTS**
 
 Backend:
+<div>
 -Python Flask And Jinja2 Templating
-
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1024px-Python-logo-notext.svg.png" width="100" height="100">
+</div>
+<br></br>
 Database:
--MySQL
+<div>
+ -MySQL
+<img src="https://pngimg.com/uploads/mysql/mysql_PNG1.png" width="100" height="100">
+  </div>
+
 
 Frontend:
 -HTML/CSS
@@ -26,7 +33,7 @@ Frontend:
 **APP SCREENSHOTS BELOW**
 <div>
   <div style="float:left;"> <!-- Could also use a div class associated with a css with float to make the side by side image -->
-    <a href="https://i.ibb.co/qnfZNPQ/appscreen.png"><img src="https://i.ibb.co/qnfZNPQ/appscreen.png" width="300" height="670"></a>
+    <a href="https://i.ibb.co/qnfZNPQ/appscreen.png"><img src="https://i.ibb.co/qnfZNPQ/appscreen.png" width="800" height="500"></a>
   </div>
 </div>
 
