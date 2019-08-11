@@ -14,14 +14,12 @@ Jinja2 templating to bridge the connection between the Python Backend to the HTM
 **TECHNICAL ASPECTS**
 
 Backend:
-<div>
 -Python Flask And Jinja2 Templating
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1024px-Python-logo-notext.svg.png" width="100" height="100">
-</div>
-<br></br>
+
+
 Database:
-<div>
  -MySQL
+ 
 <img src="https://pngimg.com/uploads/mysql/mysql_PNG1.png" width="100" height="100">
   </div>
 
