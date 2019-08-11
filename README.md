@@ -2,29 +2,30 @@
 
 # Email-Query-Management-System
 
-> A simple web application created using a Python Flask to manage Query Environment names and Email Alerts List dynamically.
+> A simple web application created using Python Flask to manage Query parameters and Email Alert Lists dynamically.
 
 **Overview**
 
-The Email_Query Management System was developed as an Admin dashboard system to manage various query parameters for large web apps or Big Data Applications. In
-addition to this, it has the capabality to manage users/emails for activities such as automated email alerts(Check out my "everythingpython-" repo to get access to this). It has error handling(ie;404 errors) and uses Flask alongside
-Jinja2 templating to bridge the connection between the Python Backend to the HTML/CSS frontend. The Admin dashboard panel can be accessed through 127.0.0.1:5000/Login or localhost:5000/Login.
+The Email_Query Management System was developed as an Admin dashboard system to manage various query parameters for large web apps or Big Data Applications. 
+In addition to this, it has the capabality to manage users/emails for activities such as automated email alerts(Check out my "everythingpython/selenium" repo to get access to this). It has error handling(ie;404 errors) and uses Flask alongside
+Jinja2 templating to bridge the connection between the Python Backend and the HTML/CSS frontend. 
+Simply clone the repository and run the app.py script. Aslong as the app.py script is running, the web application can be viewed. The Admin dashboard panel can be accessed through 127.0.0.1:5000/Login .
 
 
 **TECHNICAL ASPECTS**
 
 Backend:
+
 -Python Flask And Jinja2 Templating
 
 
 Database:
+
  -MySQL
- 
-<img src="https://pngimg.com/uploads/mysql/mysql_PNG1.png" width="100" height="100">
-  </div>
 
 
 Frontend:
+
 -HTML/CSS
 -Bootstrap for responsive UI elements
 
